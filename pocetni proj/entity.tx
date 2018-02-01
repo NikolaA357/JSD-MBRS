@@ -1,0 +1,26 @@
+
+EntityModel:
+    'app' name=ID '['
+        entities+=Entity
+    ']'
+;
+
+Entity:
+    'entity' name=ID  '{'
+        properties+=Property
+
+    '}'
+;
+
+Property:
+    name=ID types=[Type]
+;
+
+Type:
+   'int' | 'string' | 'date'
+;
+
+
+Comment:
+    /\/\/.*$/
+;

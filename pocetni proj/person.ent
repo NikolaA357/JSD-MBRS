@@ -1,0 +1,21 @@
+
+app csharp[
+
+  entity Student {
+    idstudent int
+    firstname string
+    lastname string
+    datum date
+
+  }
+
+ entity Course {
+    idcourse int
+    name string
+
+
+  }
+  
+  ]
+
+
